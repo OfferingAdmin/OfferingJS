@@ -1,0 +1,58 @@
+{
+    "product": {
+      "id": "12345",
+      "name": "Wireless Bluetooth Headphones",
+      "description": "Experience high-quality sound and comfort with our Wireless Bluetooth Headphones. Enjoy up to 20 hours of playtime on a single charge.",
+      "image_url": "https://example.com/images/headphones.jpg",
+      "price": 79.99,
+      "currency": "USD",
+      "category": ["Electronics", "Audio", "Headphones"],
+      "tags": ["wireless", "bluetooth", "noise-cancelling"]
+    },
+    "buyout": {
+      "price": 120,
+      "currency": "ETH",
+      "contract_address": "0x1234567890abcdef1234567890abcdef12345678"
+    },
+    "splits": {
+        "parties": [
+          {
+            "id": "user123",
+            "percentage": 50,
+            "contract_address": "0x1234567890abcdef1234567890abcdef12345678"
+          },
+          {
+            "id": "user456",
+            "percentage": 50,
+            "contract_address": "0x1234567890abcdef1234567890abcdef12345678"
+          }
+        ]
+      },
+    "offerings": [
+      {
+        "id": "offer-1",
+        "user_id": "user123",
+        "description": "Offering 200 DOGE for the headphones",
+        "currency": "DOGE",
+        "amount": 200
+      },
+      {
+        "id": "offer-2",
+        "user_id": "user456",
+        "description": "Will exchange 1 ETH and 5 Hi-Fives for the headphones",
+        "currency": "multi",
+        "offerings": [
+          {
+            "currency": "ETH",
+            "amount": 1,
+            "temp_address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"
+          },
+          {
+            "currency": "Hi-Fives",
+            "amount": 5
+          }
+        ]
+      }
+    ]
+  }
+  
